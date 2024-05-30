@@ -1,0 +1,757 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C45E3CF-E69C-45F0-A3F0-409ED3DB9685}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>smr_show_results</RootNamespace>
+    <AssemblyName>smr_show_results</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>electric-car.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\bosch_lpp_image_pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_pass_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_non_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="smr_fail_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="electric-car.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

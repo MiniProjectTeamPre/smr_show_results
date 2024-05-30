@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="smr_fail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_fail_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_fail_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_non_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_non_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smr_pass_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\smr_pass_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
